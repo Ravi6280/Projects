@@ -1,1 +1,31 @@
+Face Recognition Attendance System (OpenCV – LBPH)
 
+Project Overview
+
+This project is a Face Recognition based Attendance System developed using Python and
+OpenCV. It detects and recognizes faces using the LBPH algorithm and records attendance in a
+CSV file.
+
+
+How It Works
+
+1. Loads face images from dataset folder (Faces)
+2. Trains LBPH face recognizer
+3. Captures webcam feed
+4. Detects faces using Haar Cascade
+5. Recognizes faces and marks attendance
+
+
+Technologies Used
+
+Python, OpenCV, NumPy, CSV, Datetime, OS
+Requirements
+opencv-python
+opencv-contrib-python
+numpy
+
+Output
+Attendance is saved in a date-wise CSV file with name and time.
+
+Author
+Pala
